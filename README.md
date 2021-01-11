@@ -1,9 +1,11 @@
 # redis-ria
 
+#### support server<br />
+https://discord.gg/qbnq6mPdyb
 
 Integrates Discord.js caching with Redis.  Stores users, guilds, channels, messages, and emojis in a hash set of IDs (keys are the plural of the type: e.g. `users`, `messages`, etc.).  You can subscribe to channels named `[type]Set` and `[type]Delete` which will contain a payload of the resource ID.
 
-changed in this version? 
+changed in this version?<br />
 support discord.js **v12.5.1**
 
 ## Example
